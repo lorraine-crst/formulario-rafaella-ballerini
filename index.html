@@ -15,7 +15,7 @@
  
  <form>
    <fieldset class="grupo">
-     <div>
+     <div class="campo">
        <label for="nome"><strong>Nome</strong></label>
        <input type="text" name="nome" id="nome" placeholder="Digite seu Primeiro nome" required>
      </div>
@@ -39,11 +39,12 @@
        <label>
          <input type="radio" name="devweb" value="backend">Back-end
        </label><br>
+        <label>
         <input type="radio" name="devweb" value="fullstack">Fullstack
         </label><br>      
      </div>
      
-     <div>
+     <div class="campo">
        <label for="senioridade"><strong>Senioridade 👩🏽‍🎓</strong></label><br>
        <select id="senioridade">
           <option selected disabled value="">Selecione...</option>
@@ -54,7 +55,7 @@
      </div>
      
      <fieldset class="grupo">
-       <div>
+       <div id="check">
          <label><strong>Selecione as tecnologias que utiliza:</strong></label><br><br>
          <input type="checkbox" name="tecnologia1" id="tecnologia1" value="HTML">
          <label for="tecnologia1">HTML</label><br>
@@ -77,9 +78,9 @@
        </div>
      </fieldset>
      
-     <div>
+     <div class="campo">
        <br>
-       <label><strong>Conte um pouco da sua experiencia:</strong></label>
+       <label><strong>Conte um pouco da sua experiencia:</strong></label><br>
        <textarea row="6" style="width: 26em" id="experiencia" name="experiencia"></textarea>
      </div>
      
